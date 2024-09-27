@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T22:54:48 IST" name="SauceDemoAutomationSuite" finished-at="2024-09-26T22:54:55 IST" duration-ms="6386">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T22:54:48 IST" name="LoginTests" finished-at="2024-09-26T22:54:55 IST" duration-ms="6386">
+      <class name="TestCases.SwagLabAutomation">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:TestCases.SwagLabAutomation@4b8ee4de]" started-at="2024-09-26T22:54:48 IST" name="setUpSuite" finished-at="2024-09-26T22:54:48 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.SwagLabAutomation@4b8ee4de]" started-at="2024-09-26T22:54:48 IST" name="setUp" finished-at="2024-09-26T22:54:51 IST" duration-ms="2539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:1, instance:TestCases.SwagLabAutomation@4b8ee4de]" started-at="2024-09-26T22:54:51 IST" name="validLoginTest" finished-at="2024-09-26T22:54:52 IST" duration-ms="852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.SwagLabAutomation@4b8ee4de]" started-at="2024-09-26T22:54:52 IST" name="tearDown" finished-at="2024-09-26T22:54:52 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.SwagLabAutomation@4b8ee4de]" started-at="2024-09-26T22:54:52 IST" name="setUp" finished-at="2024-09-26T22:54:54 IST" duration-ms="1698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:2, instance:TestCases.SwagLabAutomation@4b8ee4de]" started-at="2024-09-26T22:54:54 IST" name="invalidLoginTest" finished-at="2024-09-26T22:54:55 IST" duration-ms="740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_Invaliduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_Invalidpwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.SwagLabAutomation@4b8ee4de]" started-at="2024-09-26T22:54:55 IST" name="tearDown" finished-at="2024-09-26T22:54:55 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.SwagLabAutomation -->
+    </test> <!-- LoginTests -->
+  </suite> <!-- SauceDemoAutomationSuite -->
+</testng-results>
